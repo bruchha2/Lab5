@@ -1,4 +1,4 @@
-import java.util.Random;
+//import java.util.Random;
 
 /**
  * Class implementing a bank account.
@@ -71,6 +71,9 @@ public class BankAccount {
         /*
          * Implement this function
          */
+        accountType = accountCategory;
+        ownerName = name;
+
     }
 
     /*
@@ -86,10 +89,10 @@ public class BankAccount {
 
     /**
      * Word.
-     * @param accountNumber word
+     * @param aN word
      */
-    public void setAccountNumber(final int accountNumber) {
-        this.accountNumber = accountNumber;
+    public void setAccountNumber(final int aN) {
+        this.accountNumber = aN;
     }
 
     /**
@@ -101,10 +104,10 @@ public class BankAccount {
 
     /**
      * Word.
-     * @param accountType word.
+     * @param aT word.
      */
-    public void setAccountType(final BankAccountType accountType) {
-        this.accountType = accountType;
+    public void setAccountType(final BankAccountType aT) {
+        this.accountType = aT;
     }
 
     /**
@@ -116,10 +119,10 @@ public class BankAccount {
 
     /**
      * Word.
-     * @param accountBalance word
+     * @param aB word
      */
-    public void setAccountBalance(final double accountBalance) {
-        this.accountBalance = accountBalance;
+    public void setAccountBalance(final double aB) {
+        this.accountBalance = aB;
     }
 
     /**
@@ -131,10 +134,10 @@ public class BankAccount {
 
     /**
      * Word.
-     * @param ownerName word
+     * @param oN word
      */
-    public void setOwnerName(final String ownerName) {
-        this.ownerName = ownerName;
+    public void setOwnerName(final String oN) {
+        this.ownerName = oN;
     }
 
     /**
@@ -146,10 +149,10 @@ public class BankAccount {
 
     /**
      * Wrod.
-     * @param interestRate word.
+     * @param iR word.
      */
-    public void setInterestRate(final double interestRate) {
-        this.interestRate = interestRate;
+    public void setInterestRate(final double iR) {
+        this.interestRate = iR;
     }
 
     /**
@@ -161,9 +164,9 @@ public class BankAccount {
 
     /**
      * Word.
-     * @param interestEarned word
+     * @param iE word
      */
-    public void setInterestEarned(final double interestEarned) {
-        this.interestEarned = interestEarned;
+    public void setInterestEarned(final double iE) {
+        this.interestEarned = iE;
     }
 }

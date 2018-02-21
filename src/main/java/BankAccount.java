@@ -64,6 +64,8 @@ public class BankAccount {
 
     /**
      * Word.
+     * @param name word
+     * @param accountCategory word
      */
     public BankAccount(final String name, final BankAccountType accountCategory) {
         /*
@@ -84,8 +86,9 @@ public class BankAccount {
 
     /**
      * Word.
+     * @param accountNumber word
      */
-    public void setAccountNumber(int accountNumber) {
+    public void setAccountNumber(final int accountNumber) {
         this.accountNumber = accountNumber;
     }
 
@@ -98,8 +101,9 @@ public class BankAccount {
 
     /**
      * Word.
+     * @param accountType word.
      */
-    public void setAccountType(BankAccountType accountType) {
+    public void setAccountType(final BankAccountType accountType) {
         this.accountType = accountType;
     }
 
@@ -112,8 +116,9 @@ public class BankAccount {
 
     /**
      * Word.
+     * @param accountBalance word
      */
-    public void setAccountBalance(double accountBalance) {
+    public void setAccountBalance(final double accountBalance) {
         this.accountBalance = accountBalance;
     }
 
@@ -126,8 +131,9 @@ public class BankAccount {
 
     /**
      * Word.
+     * @param ownerName word
      */
-    public void setOwnerName(String ownerName) {
+    public void setOwnerName(final String ownerName) {
         this.ownerName = ownerName;
     }
 
@@ -139,9 +145,10 @@ public class BankAccount {
     }
 
     /**
-     * Word.
+     * Wrod.
+     * @param interestRate word.
      */
-    public void setInterestRate(double interestRate) {
+    public void setInterestRate(final double interestRate) {
         this.interestRate = interestRate;
     }
 
@@ -154,8 +161,9 @@ public class BankAccount {
 
     /**
      * Word.
+     * @param interestEarned word
      */
-    public void setInterestEarned(double interestEarned) {
+    public void setInterestEarned(final double interestEarned) {
         this.interestEarned = interestEarned;
     }
 }

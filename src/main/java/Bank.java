@@ -15,8 +15,11 @@ public class Bank {
     /**
      * javadoc.
      */
-    public String bankName;
+    private String bankName;
 
+    /**
+     * javadoc.
+     */
     public Bank() {
         bankName = "Illini Bank";
     }
@@ -85,7 +88,10 @@ public class Bank {
          */
     }
 
-    public static int totalAccounts = 0;
+    /**
+     * javadoc.
+     */
+    private static int totalAccounts = 0;
     /**
      * Uses static variable to get number of bank accounts opened.
      *

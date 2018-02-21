@@ -13,19 +13,58 @@ public class BankAccount {
      * You may want to use this to distinguish between different kinds of accounts.
      */
     public enum BankAccountType {
+        /**
+         * Word.
+         */
         CHECKINGS,
+        /**
+         * Word.
+         */
         SAVINGS,
+        /**
+         * Word.
+         */
         STUDENT,
+        /**
+         * Word.
+         */
         WORKPLACE
     }
 
+    /**
+     * Word.
+     */
     private int accountNumber;
-    public BankAccountType accountType;
+
+    /**
+     * Word.
+     */
+    private BankAccountType accountType;
+
+
+    /**
+     * Word.
+     */
     private double accountBalance;
+
+    /**
+     * Word.
+     */
     private String ownerName;
-    public double interestRate;
+
+    /**
+     * Word.
+     */
+    private double interestRate;
+
+    /**
+     * Word.
+     */
     private double interestEarned;
 
+    /**
+     * Word.
+     */
     public BankAccount(final String name, final BankAccountType accountCategory) {
         /*
          * Implement this function
@@ -35,4 +74,88 @@ public class BankAccount {
     /*
      * Implement getters and setters as appropriate for private variables.
      */
+
+    /**
+     * Word.
+     */
+    public int getAccountNumber() {
+        return accountNumber;
+    }
+
+    /**
+     * Word.
+     */
+    public void setAccountNumber(int accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    /**
+     * Word.
+     */
+    public BankAccountType getAccountType() {
+        return accountType;
+    }
+
+    /**
+     * Word.
+     */
+    public void setAccountType(BankAccountType accountType) {
+        this.accountType = accountType;
+    }
+
+    /**
+     * Word.
+     */
+    public double getAccountBalance() {
+        return accountBalance;
+    }
+
+    /**
+     * Word.
+     */
+    public void setAccountBalance(double accountBalance) {
+        this.accountBalance = accountBalance;
+    }
+
+    /**
+     * Word.
+     */
+    public String getOwnerName() {
+        return ownerName;
+    }
+
+    /**
+     * Word.
+     */
+    public void setOwnerName(String ownerName) {
+        this.ownerName = ownerName;
+    }
+
+    /**
+     * Word.
+     */
+    public double getInterestRate() {
+        return interestRate;
+    }
+
+    /**
+     * Word.
+     */
+    public void setInterestRate(double interestRate) {
+        this.interestRate = interestRate;
+    }
+
+    /**
+     * Word.
+     */
+    public double getInterestEarned() {
+        return interestEarned;
+    }
+
+    /**
+     * Word.
+     */
+    public void setInterestEarned(double interestEarned) {
+        this.interestEarned = interestEarned;
+    }
 }

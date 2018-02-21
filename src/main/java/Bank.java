@@ -5,10 +5,16 @@
  * both classes, by fixing checkstyle errors, defining constructors, getters and setters, and
  * accessing private variables.
  *
+ * Your job is to complete the provided classes so that they work properly and employ object-oriented
+ * principles correctly. You’ll need to use your newly-acquired knowledge about objects and object syntax.
+ *
  * @see <a href="https://cs125.cs.illinois.edu/lab/8/">Lab 8 Description</a>
  */
 public class Bank {
 
+    /**
+     * javadoc.
+     */
     public String bankName;
 
     public Bank() {
